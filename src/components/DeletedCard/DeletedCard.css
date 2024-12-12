@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.deletedimmmg{
+    width: 60%;
+    margin-left: 20%;
+    height: 120px;
+    margin-top: -20px;
+}
+.trashdiv{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}

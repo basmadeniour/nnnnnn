@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .icoooon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(230, 234, 234);
+} */
+@media (max-width: 768px) {
+    .kppopouy{
+        width: 350px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .kppopouy{
+        width: 350px;
+        margin-left: 20px;
+    }
+}

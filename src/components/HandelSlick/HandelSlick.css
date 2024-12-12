@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.handelslickcontainer{
+    width: 100%;
+    height:65vh;
+}
+.upper{
+    width: 80%;
+    height: 10vh;
+    margin-top: 3vh;
+}
+.square{
+    width: 30px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #db4444;
+}
+.squarename{
+    font-size: 16px;
+    color: #db4444;
+    font-weight: 700px;
+}
+.squaretitle{
+    margin: 10%;
+    font-size: 15px;
+}
+.lower{
+margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+    .upper{
+        width: 100%;
+        height: 13vh;
+    }
+    .some-other-content{
+        margin-top: -30px;
+    }
+    .sidddes{
+        height: 10px;
+        }
+}
+
+@media (max-width: 576px) {
+    .upper{
+        width: 100%;
+        height: 13vh;
+    } 
+    .some-other-content{
+        margin-top: -20px;
+    }
+    .sidddes{
+        height: 10px;
+        }
+        .handelslickcontainer{
+            height:60vh;
+        }
+}

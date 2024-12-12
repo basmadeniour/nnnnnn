@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fav-item{
+    box-shadow: 1px 1px 1px 1px rgb(242, 235, 235);
+    padding: 20px;
+}
+.fav-image{
+    width: 40%;
+    margin-left: 30%;
+    height: 100px;
+}
+.h6wishlist{
+    text-align: left;
+    margin-left: 10px;
+}
+/* Ensure items align inline in the slider */
+.fav-item,
+.carddiv {
+  display: inline-block; /* Ensures items are inline */
+  vertical-align: top; /* Align items properly */
+  margin: 0 10px; /* Optional: Add some spacing between items */
+  width: auto; /* Allow width to be determined by content */
+}
+
+/* Optional: Add text alignment */
+.fav-item img,
+.carddiv img {
+  display: block; /* Prevent image stretching */
+  margin: 0 auto; /* Center image */
+}
+
+.slick-slide {
+  display: flex; /* Align items properly in the slide */
+  justify-content: center; /* Center the content within slides */
+}
+
+.slick-track {
+  display: flex; /* Inline alignment for slick items */
+}

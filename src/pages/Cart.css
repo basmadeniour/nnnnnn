@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Cartitems{
+    box-shadow: 1px 1px 1px 1px 1px rgb(212, 207, 207);
+    padding: 10px;
+    margin-top: 10px;
+}
+.cartttt{
+    width: 70%;
+    margin-left: 15%;
+}
+.carttosides{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.copooon{
+    height: 60px;
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.coponbtn{
+    border: none;
+    color: white;
+    padding: 5px;
+    background-color: #db4444;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 20px;
+}
+.coponinput{
+    padding: 5px;
+}
+.h6cart {
+    text-align: left;
+    padding: 10px;
+}
+.carttotaaal{
+    width: 300px;
+    height: 250px;
+    border: 2px black solid;
+}
+.carttotaaal p{
+    text-align: left;
+    margin-left: 5px;
+    display: flex;
+}
+.ProcressToCheckouy{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #db4444;
+    color: white;
+    border-radius: 3px;
+}
+.lastspan{
+    margin-left: 60%;
+}
+.backbttttn , .resetbtn{
+    width: 150px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.backbttttn{
+    margin-left: -200px;
+}
+.resetbtn{
+    margin-left: 200px;
+}
+.backandreset{
+    display: flex;
+    justify-content: space-between;
+}
+.kmjjpokpo{
+    margin-left: 60%;
+}
+.kmjjpokpohh{
+    margin-left: 70%;
+}
+
+@media (max-width: 768px) {
+    .cartttt{
+        width: 90%;
+        margin-left: 3%;
+    }
+    .backbttttn{
+        margin-left:0px;
+        width: 100px;
+    }
+    .resetbtn{
+        margin-left:0px;
+        width: 100px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    
+  }

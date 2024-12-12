@@ -1,0 +1,44 @@
+/* Timer.css */
+
+/* Style for the timer container */
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Flex container to arrange time units horizontally */
+  .time-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Style for each time unit (Days, Hours, Minutes, Seconds) */
+  .time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-unit p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .time-unit p:first-child {
+    font-size: 1.2rem; 
+  }
+  
+  .time-unit p:last-child {
+    font-size: 1rem; 
+  }
+  .spantimer{
+  color: #db4444;
+ font-size: 30px;
+  }
+  
+  

@@ -1,0 +1,118 @@
+  * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav {
+        border-bottom: 1px solid black;
+    }  
+    button:active {
+        background-color: rgb(119, 137, 127);
+    }
+    .nav-link{
+        color: black;
+        margin-left: 20px;
+    }
+    .nav-link:hover{
+        color: black;
+    }
+    .nav-link.clicked {
+        border-bottom: 2px solid rgb(101, 99, 99); 
+        color: black;
+      }
+      
+    .homeli{
+        border-bottom: 2px solid rgb(101, 99, 99);
+      }
+      
+    .navbar-brand {
+        font-weight: bold;
+        margin-left: 20px;
+        color: black;
+    }
+    .searchcontainer {
+        border-radius: 10px;
+        background-color: rgb(238, 235, 238);
+        padding: 5px;
+    }
+    .search {
+        padding: 10px;
+    }
+    .nav-login-cart {
+        font-size: 20px;
+    }
+    .nav-cart-count {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        background-color:#db4444;
+        margin-top: -18px;
+        margin-left: -20px; 
+        z-index: 0;
+        color: white;
+    }
+    .userred{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .userred {
+        padding: 5px;
+        border-radius: 50%;
+        transition: background-color 0.3s ease;
+      }
+      
+      .userred.active {
+        background-color: #db4444; /* Add the desired background color */
+      }
+      
+    @media (max-width: 768px) {
+        .navbar-brand {
+            font-size: 1.5rem;
+            margin-left: 10px;
+        }
+    
+        .searchcontainer {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    
+        .search {
+            font-size: 0.9rem;
+        }
+    
+        .nav-login-cart {
+            font-size: 1.2rem;
+        }
+        .nav-link {
+            display: inline-block;
+            margin-left: 0;
+          }
+          .nav-link.clicked {
+            border-bottom: none; 
+            
+          }
+    }
+    
+    @media (max-width: 576px) {
+        .nav-login-cart {
+            font-size: 1rem;
+        }
+        .nav-link {
+            display: inline-block;
+            margin-left: 0;
+          }
+          .nav-link.clicked {
+            border-bottom: none; 
+            
+          }
+    }
+    
+ 

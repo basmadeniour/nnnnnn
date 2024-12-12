@@ -1,0 +1,27 @@
+.usericon {
+    position: absolute;
+    top: 50px;
+    right: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 250px; 
+  }
+  
+  .usericon p {
+    margin-bottom: 15px; 
+    font-size: 18px;
+  }
+  
+  .usericon a {
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  .usericon a:hover {
+    text-decoration: underline; 
+  }
+

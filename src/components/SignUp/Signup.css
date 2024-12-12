@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Form container styles */
+/* .formContainer {
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 5%;
+} */
+
+/* Heading styles */
+/* .heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+} */
+
+/* .subheading {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+} */
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid #ccc;
+  outline: none;
+}
+p{
+  font-size: 15px;
+  margin-top: 5px;
+  }
+/* Buttons */
+.createAccountButton {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.googleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.googleIcon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* Login text and link */
+.loginText {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.loginLink {
+  color: #e53935;
+  text-decoration: none;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .formContainer{
+    width: 98%;
+  }
+}
+
+@media (max-width: 576px) {
+  
+}
+
+  

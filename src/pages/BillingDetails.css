@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h5billing{
+    text-align: left;
+    margin-left: 15px;
+}
+.form-label {
+   display: inline-block; 
+   text-align: left;
+    font-size: 10px;
+}
+.form-check-label{
+    font-size: 14px;
+    margin-left: -10px;
+}
+.billingform {
+ margin-left: 15%;
+}
+#saveInfo{
+    background-color: #db4444;
+}
+.form-control{
+    background-color: #f4efef;
+}
+.bankingdetails{
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.kmjjpokpo{
+    margin-left: 60%;
+}
+.kmjjpokpohh{
+    margin-left: 70%;
+}
+.divbanking{
+    display: inline;
+}
+.divbanking img{
+    width:30px;
+    height: 20px;
+    margin-left: 15px;
+}
+.llklkjjh , .secinput { 
+    display: flex;
+    left: 5px;
+}
+.secinput p{
+   margin-left: -190%;
+}
+.aboutslickicons{
+   background-color: #f4efef;
+}
+ 
+@media (max-width: 768px) {
+    .billingform {
+        margin-left: 2%;
+       }
+       .bankingdetails{
+        margin-left: 0;
+       }
+  }
+  
+  @media (max-width: 576px) {
+    .billingform {
+        margin-left: 2%;
+       }
+       .bankingdetails{
+        margin-left: 0;
+       }
+  }

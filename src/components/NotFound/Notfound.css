@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.notfounddiv{
+    text-align: center;
+    margin-top: 10%;
+}
+.h1notfound{
+    font-size: 50px;
+    font-weight: 1100px;
+}
+.pnotfound{
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 50px auto;
+}
+.notfoundbtn{
+    width: 200px;
+    height: 40px;
+    background-color: #db4444;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.notfoundlink{
+    text-decoration: none;
+    color: white;
+}

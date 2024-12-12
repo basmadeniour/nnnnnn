@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  .custom-prev-arrow, .custom-next-arrow {
+    position: absolute;
+    top: 15px; /* Move arrows up by 15px */
+    z-index: 1;
+    font-size: 20px;
+    color: #000; /* Color for the arrows */
+  }
+  .slick-slide {
+    display: flex !important; /* Ensure slides align horizontally */
+    justify-content: center; /* Center content if necessary */
+  }
+  .container {
+    max-width: 100%; /* Ensure container takes full width */
+  }
+  .slick-slide > div {
+    margin: 0 20px; /* Space between slides */
+    /* width: auto; Allow slides to shrink */
+  }
+ 
+.iconcard{
+    width: 170px;
+    height: 180px;
+    border-radius: 5%;
+    border: 1px solid rgb(192, 185, 185);
+    padding: 15px;
+}
+.icoooon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.iconcard:hover {
+   color: aliceblue;
+}
+.iconcard:hover{
+   background-color: #db4444;
+}
+.picon:hover{
+  color: white;
+}
+.picon{
+    font-size: 50px; 
+    font-weight: bold;
+    margin-top: 20px;
+}
+  
+
+  
+  /* Ensure arrows are positioned properly in smaller screens */
+  @media (max-width: 768px) {
+    .custom-prev-arrow, .custom-next-arrow {
+      top: 15px; /* Keep the arrows at 15px from the top */
+    }
+    .leffftarrow{
+        margin-top: -60px;
+    }
+    .iconcard{
+      width: 250px;
+      margin-left:50px;
+  }
+  .last-slides {
+    margin-right: 10%; /* Add margin-right for the last 3 slides */
+  }
+}
+  
+  @media (max-width: 576px) {
+    .leffftarrow{
+        margin-top: -60px;
+    } 
+    .iconcard{
+      width: 260px;
+      margin-left: -20%;
+  }
+  .last-slides {
+    margin-left: -22%; /* Add margin-right for the last 3 slides */
+  }
+  }
+
+  

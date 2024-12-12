@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.iconcard{
+    width: 250px;
+    height: 180px;
+    background-color: aqua;
+    border-radius: 5%;
+    border: 1px solid rgb(192, 185, 185);
+    padding: 8px;
+    margin-left: -3%;
+}
+.icoooon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.iconcard:hover p{
+   color: aliceblue;
+}
+.iconcard:hover{
+   background-color: #db4444;
+}
+.picon{
+    font-size: 50px; 
+    font-weight: bold;
+    margin-top: 20px;
+}

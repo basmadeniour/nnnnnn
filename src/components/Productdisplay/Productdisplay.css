@@ -1,0 +1,233 @@
+.productdisplayleft{
+   height: 50vh;
+   margin-left: 5%;
+}
+.fourthimg{
+   height: 50vh;
+   margin-left: -20px;
+}
+.fourthimg img {
+    width: 100px;
+    height: 100px;
+}
+.Productdisplay{
+    height: 70vh;
+    padding: 3%;
+}
+.bigimg{
+    height: 50vh;
+    background-color: #f5f5f5;
+    padding-top: 5%;
+}
+.bigimg img{
+    width: 100%;
+    height: 100%;
+}
+.jhj{
+    width: 100px;
+    height: 100px; 
+    margin-top: 20px;
+}
+.bigimg h2{
+    font-size: 12px;
+}
+.smallimg{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    background-color:#f5f5f5 ;
+    padding: 2%;
+}
+.smallimg img{
+   margin-left: 0px;
+   width: 100%;
+   height: 80%;
+}
+.productdisplayright{
+    height: 50vh;
+    margin-left: 3%;
+}
+.productdisplayright p{
+   text-align: left;
+   font-size: 12px;
+   font-weight: 1000px;
+}
+.product-details-info {
+    display: flex;
+  }
+  
+  .star {
+    font-size: 24px;
+    color: gold;
+  }
+  
+  .star.empty {
+    color: #d3d3d3; /* Light grey for empty stars */
+  }
+  
+  .star.half {
+    color: orange; /* Color for half stars */
+  }
+  
+  .ml-2 {
+    margin-left: 0.5rem; /* Adds some space between the stars and review count */
+  }
+  .coloredbtn1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    margin-left: 45%;
+}
+.kkkk{
+    margin-left: 2%;
+}
+.coloredbtn2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border:none;
+}
+.sizebtn{
+    width: 30px;
+    height:30px ;
+    padding: 5px 0;
+    margin-left: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+  
+  .sizebtn.selected {
+    border-color:#db4444;
+    color: white;
+  }
+  .cartlogic{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(233, 228, 228);
+    padding: 5px;
+  }
+  .numss{
+    height: 100%;
+    width: 30%;
+  }
+  .daanow{
+    height: 100%;
+    width: 30%;
+    margin: 0 5%;
+  }
+  .love{
+    height: 100%;
+    width: 20%;
+    background-color: #ccc;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buycart{
+    width: 100%;
+    height: 100%;
+    background-color: #db4444;
+    color: white;
+    border: none;
+  }
+  .heartlove{
+    width: 60%;
+    height: 60%;
+    /* margin-top: 10%; */
+    /* margin-left: 20%; */
+  }
+  /* Style for the heart icon */
+.heartlove {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Red color for the heart when clicked */
+  .red-heart {
+    color:#db4444;
+  }
+  .delvies{
+    margin-top: 10px;
+    display: flex;
+    width: 90%;
+    height: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .free , .return{
+    width: 96%;
+    height: 48%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .icvonn{
+    height: 100%;
+    width: 20%;
+  }
+  .invoo{
+    height: 100%;
+    width: 75%;
+    padding: 2px;
+  }
+  .jjkjkk{
+    width: 60%;
+    height: 70%;
+    margin-top: 10%;
+  }
+  .invoo p{
+   font-size: 10px;
+  }
+  .displayrelated{
+    margin-top: 70px;
+  }
+ 
+  
+
+@media (max-width: 768px) {
+    .productdisplayleft{
+        height: 30vh;
+        margin-top: -100px;
+     } 
+     .bigimg {
+       padding-left: 20px;
+       padding-top: 30%;
+       margin-top: 2%;
+       height: 39vh;
+       margin-left: 0px;
+    }
+    .productdisplayright{
+        margin-top: 80px;
+        padding-top: 50px;
+    }
+    .Productdisplay{
+        height: 90vh;
+        padding: 3%;
+        margin-top: 100px;
+    }
+     .bigimg img{
+        margin-top: -100px;
+        width: 100%;
+        height: 100%;
+    }
+    .fourthimg{
+        height: 40vh;
+     }
+     .coloredbtn1{
+        margin-left: 2%;
+    }
+    .smallimg{
+        height: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+  
+}
