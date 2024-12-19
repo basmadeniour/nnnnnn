@@ -69,24 +69,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // Import shared components
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 // Import pages
-import Home from './pages/Home';
-import About from './pages/about';
-import Contact from './pages/contact';
-import LoginSignUp from './pages/LoginSignUp';
-import ProductDetails from './pages/ProductDetails';
-import Cart from './pages/Cart';
-import Fava from './pages/Fava';
-import Profile from './pages/Profile';
-import Category from './pages/Category';
-import UserInfo from './pages/Userinfo';
-import BillingDetails from "./pages/BillingDetails"
+import Home from './pages/Home.jsx';
+import About from './pages/about.jsx';
+import Contact from './pages/contact.jsx';
+import LoginSignUp from './pages/LoginSignUp.jsx';
+import ProductDetails from './pages/ProductDetails.jsx';
+import Cart from './pages/Cart.jsx';
+import Fava from './pages/Fava.jsx';
+import Profile from './pages/Profile.jsx';
+import Category from './pages/Category.jsx';
+import UserInfo from './pages/Userinfo.jsx';
+import BillingDetails from "./pages/BillingDetails.jsx"
 
 // Import context provider
-import ShopcontextProvider from './context/Shopcontext';
+import ShopcontextProvider from './context/Shopcontext.jsx';
 
 function App() {
   const [showUserInfo, setShowUserInfo] = useState(false);
@@ -149,7 +149,7 @@ function App() {
   );
 }
 
-export default App;
+export default App.js;
 
 
 
