@@ -5,40 +5,41 @@ import { Link } from "react-router-dom";
 import "./Cart.css";
 
 // Calculate the total cart amount
-const getTotalCartAmount = (cartItems, all_product) => {
+const getTotalCartAmount = (cartItems = {}, all_product = []) => {
   let totalAmount = 0;
 
-  console.log("cartItems:", cartItems);
-  console.log("all_product:", all_product);
-
   for (const itemId in cartItems) {
-    console.log("Iterating over itemId:", itemId);
     if (cartItems[itemId]?.quantity > 0) {
-      const itemInfo = all_product.find(
-        (product) => product.id === Number(itemId)
-      );
-      console.log("Found itemInfo:", itemInfo);
+      const itemInfo = all_product.find((product) => product.id === Number(itemId));
       if (itemInfo) {
         totalAmount += itemInfo.new_price * cartItems[itemId].quantity;
       }
     }
   }
 
-  console.log("Calculated totalAmount:", totalAmount);
   return totalAmount;
 };
 
 const Cart = () => {
   const { cartItems, all_product } = useContext(ShopContext);
+  const totalCartAmount = getTotalCartAmount(cartItems, all_product);
 
   useEffect(() => {
     console.log("Context cartItems or all_product has changed.");
   }, [cartItems, all_product]);
 
+  if (Object.keys(cartItems).length === 0) {
+    return (
+      <div className="cartttt">
+        <h2>Your cart is empty!</h2>
+        <Link to="/">Go shopping</Link>
+      </div>
+    );
+  }
+
   return (
     <div className="cartttt">
       <div className="Cartitems">
-        {/* Pass cartItems as a prop */}
         <Cartitems items={cartItems} />
       </div>
 
@@ -49,25 +50,27 @@ const Cart = () => {
             type="text"
             placeholder="Enter your Coupon"
             className="coponinput"
+            aria-label="Enter your coupon code"
           />
-          <button className="coponbtn">apply coupon</button>
+          <button className="coponbtn">Apply Coupon</button>
         </div>
+        
         {/* Cart Total Section */}
         <div className="carttotaaal col-12 col-md-4">
           <h6 className="h6cart">Cart Total</h6>
           <p>
-            Subtotal: <span className="kmjjpokpo" >${getTotalCartAmount(cartItems, all_product)}</span>
+            Subtotal: <span className="kmjjpokpo">${totalCartAmount}</span>
           </p>
           <hr />
           <p>
-            Shipping: <span className="lastspan">free</span>
+            Shipping: <span className="lastspan">Free</span>
           </p>
           <hr />
           <p>
-            Total: <span className="kmjjpokpohh">${getTotalCartAmount(cartItems, all_product)}</span>
+            Total: <span className="kmjjpokpohh">${totalCartAmount}</span>
           </p>
           <Link to="/BillingDetails">
-          <button className="ProcressToCheckouy">Process To Checkout</button>
+            <button className="ProcressToCheckouy">Process To Checkout</button>
           </Link>
         </div>
       </div>
@@ -76,6 +79,7 @@ const Cart = () => {
 };
 
 export default Cart;
+
 
 
 

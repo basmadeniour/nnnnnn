@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import explore222 from "../Assets/explore222";
 import ColoredProductCard from '../ColoredProductCard/ColoredProductCard';
+import "./ColoredSlick.css"
 
 const Slick = () => {
   // const PrevArrow = (props) => {
@@ -42,7 +43,7 @@ const Slick = () => {
   };
 
   return (
-    <div className="container py-4 px-4 justify-content-center position-relative">
+    <div className="container py-4 px-4 justify-content-center position-relative gteddtt">
       <Slider {...settings}>
         {/* Check if Productdata is valid */}
         {explore222 && explore222.length > 0 ? (

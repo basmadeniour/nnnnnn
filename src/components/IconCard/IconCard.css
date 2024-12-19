@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 .iconcard{
-    width: 250px;
+    width: 220px;
     height: 180px;
     background-color: aqua;
     border-radius: 5%;
     border: 1px solid rgb(192, 185, 185);
     padding: 8px;
-    margin-left: -3%;
+    /* margin-left: -3%; */
 }
 .icoooon {
     display: flex;

@@ -116,13 +116,16 @@ const Home = () => {
                   </a>
            </div>
 
-                <HandelSlick 
+               <div className="poooop">
+               <HandelSlick 
 
-                  squarename="Today’s"  
-                  squaretitle="Flash Sales" 
-                  midcontent={<TimerComponent />} />
-                  <Viewall />
-                  <hr />
+            squarename="Today’s"  
+            squaretitle="Flash Sales" 
+            midcontent={<TimerComponent />} />
+           <viewAll style={{ marginTop: "250px" }} />
+
+              </div>
+                              <hr />
           </div>
 
 

@@ -111,7 +111,10 @@ export const Navbar = ({ onUserIconClick }) => {
         <div className="collapse navbar-collapse" id="mynavbar">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className={`nav-link ${location.pathname === "/" ? "clicked" : ""}`} to="/">
+              <Link
+                className={`nav-link ${location.pathname === "/" ? "clicked" : ""}`}
+                to="/"
+              >
                 Home
               </Link>
             </li>
@@ -156,14 +159,16 @@ export const Navbar = ({ onUserIconClick }) => {
 
           {!isLoginSignUpPage && (
             <div className="nav-login-cart d-flex align-items-center ms-3">
-              <a href="/fav" className="text-dark mx-2">
+              <Link to="/fav" className="text-dark mx-2">
                 <FontAwesomeIcon icon={faHeart} style={{ fontSize: "20px" }} />
-              </a>
+              </Link>
               <div className="nav-cart-count">{getTotalFavoriteItems()}</div>
-              <a href="/cart" className="text-dark mx-2">
+
+              <Link to="/cart" className="text-dark mx-2">
                 <FontAwesomeIcon icon={faCartShopping} style={{ fontSize: "20px" }} />
-              </a>
+              </Link>
               <div className="nav-cart-count">{getTotalCartItems()}</div>
+
               <div
                 className={`userred ${isUserActive ? "active" : ""}`}
                 onClick={handleUserIconClick}
@@ -181,6 +186,7 @@ export const Navbar = ({ onUserIconClick }) => {
 };
 
 export default Navbar;
+
 
 
 

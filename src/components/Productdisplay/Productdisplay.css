@@ -226,6 +226,9 @@
     .smallimg{
         height: 80px;
     }
+    .displayrelated{
+      margin-top: 110px;
+    }
 }
 
 @media (max-width: 576px) {

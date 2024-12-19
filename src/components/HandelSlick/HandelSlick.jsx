@@ -30,7 +30,7 @@ export const HandelSlick = (props) => {
       </div>
 
       {/* Lower Section */}
-      <div className="lower mt-4">
+      <div className="lowersllllick mt-4">
           <Slick/>
       </div>
 

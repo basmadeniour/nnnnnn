@@ -6,7 +6,7 @@ import { faTruck, faHeadset, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export const ServicesPart = () => {
   return (
-    <div className='row'>
+    <div className='row joklhgjh'>
       <div className='col-12 col-md-4'>
         <ServicesCard icon={ faTruck} h2="Free and Fast Delivary" p="Free Delivary for all ordersover $140" />
       </div>

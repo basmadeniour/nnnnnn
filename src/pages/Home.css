@@ -54,6 +54,13 @@ display:none;
 
 .sec6{
     padding-top: 30px;
+    height: 900px;
+}
+.sec7{
+  margin-top: 200px;
+}
+.poooop{
+  height: 580px;
 }
 
 /* Style the carousel indicators (dots) */
@@ -250,7 +257,8 @@ display: none;
   }
   .coliiii{
     width: 200px;
-    margin-top: -35px;
+    margin-top: -5px;
+    padding-bottom: 30px;
   }
   .lowest{
     /* margin-top: 1%; */
@@ -348,6 +356,9 @@ display: none;
       .sec6{
         height: 115vh;
       }
+      .sec7{
+        height: 700px;
+      }
       .squarename{
         font-size: 16px;
         font-weight: 1100px;
@@ -370,6 +381,9 @@ display: none;
         margin: 3% 1% 0% 1%;
         background-color: black;
       }
+      .handelimg img{
+        height: 250px;
+      }
       .handelimg2{
         margin: 2% 0% 1% 0%;
         background-color: black;
@@ -383,7 +397,8 @@ display: none;
         height: 100vh;
       }
       .sec7left{
-        margin-top: -70px;
+        margin-top: -10px;
+        height: 400px;
       }
       .sec8{
         height: 72vh;
@@ -394,6 +409,12 @@ display: none;
       }
       .sec4{
         height: 650px;
+      }
+      .sec2{
+        height: 500px;
+      }
+      .sec3{
+        margin-top: 170px;
       }
 }
 
@@ -442,7 +463,23 @@ display: none;
        .sec6{
         height: 115vh;
       }
+      .handelimg{
+        width: 105%;
+        height: 105%;
+        margin: 3% 1% 0% 1%;
+        background-color: black;
+      }
+      .handelimg2{
+        width: 105%;
+        height: 105%;
+        margin: 2% 0% 1% 0%;
+        background-color: black;
+      }
+      .sec8{
+        height: 760px;
+      }
 }
+
 
   
 

@@ -4,7 +4,7 @@ import all_product from "../components/Assets/all_product";
 // Create context
 export const ShopContext = createContext(null);
 
-// Initialize cart with default data from localStorage
+// Initialize cart and favorites with default data from localStorage
 const getDefaultCart = () => {
   try {
     const savedCart = localStorage.getItem("cartItems");
@@ -15,7 +15,6 @@ const getDefaultCart = () => {
   }
 };
 
-// Initialize favorites with default data from localStorage
 const getDefaultFavorites = () => {
   try {
     const savedFavorites = localStorage.getItem("favorites");
@@ -92,24 +91,13 @@ const ShopcontextProvider = ({ children }) => {
     });
   };
 
-// Remove product from favorites dynamically and sync with localStorage
-const removeFromFavorites = (productId) => {
-  setFavorites((prev) => {
-    const updatedFavorites = prev.filter((fav) => fav.id !== productId);
-
-    // Update localStorage after state is set
-    try {
-      localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
-      console.log("fff")
-    } catch (error) {
-      console.error("Failed to sync favorites with localStorage", error);
-      console.log("fff")
-    }
-
-    return updatedFavorites;
-  });
-};
-
+  // Remove product from favorites dynamically
+  const removeFromFavorites = (productId) => {
+    setFavorites((prev) => {
+      const updatedFavorites = prev.filter((fav) => fav.id !== productId);
+      return updatedFavorites;
+    });
+  };
 
   // Calculate the total amount of items in the cart
   const getTotalCartAmount = () => {
@@ -154,6 +142,8 @@ const removeFromFavorites = (productId) => {
 };
 
 export default ShopcontextProvider;
+
+
 
 
 
