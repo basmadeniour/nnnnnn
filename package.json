@@ -56,5 +56,18 @@
  "devDependencies": {
   "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
   "gh-pages": "^6.2.0"
+ },
+ "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+ "main": "index.js",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/basmadeniour/ReactStore.git"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "type": "commonjs",
+ "bugs": {
+  "url": "https://github.com/basmadeniour/ReactStore/issues"
  }
 }
